@@ -4,7 +4,7 @@ Creating a WebAssembly framework/library that will provide common functions and 
 # Wishlist:
 
 ## hash functions:
-- [ ] crc32
+- [x] crc32
 - [ ] crc64
 - [ ] md5
 - [ ] sha-1
