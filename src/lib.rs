@@ -1,10 +1,7 @@
-#[macro_use]
-extern crate lazy_static;
 extern crate cfg_if;
 extern crate wasm_bindgen;
 
 use cfg_if::cfg_if;
-use wasm_bindgen::prelude::*;
 
 cfg_if! {
     // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
@@ -17,3 +14,4 @@ cfg_if! {
 }
 
 mod crc32;
+mod crc64;

@@ -5,7 +5,7 @@ Creating a WebAssembly framework/library that will provide common functions and 
 
 ## hash functions:
 - [x] crc32
-- [ ] crc64
+- [x] crc64
 - [ ] md5
 - [ ] sha-1
 - [ ] sha-256
