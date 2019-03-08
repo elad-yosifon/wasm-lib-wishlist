@@ -11,8 +11,8 @@ Creating a WebAssembly framework/library that will provide common functions and 
 - [ ] sha-256
 
 # utils
-- [ ] base64 with a custom lookup table
-- [ ] nanotime
+- [ ] ~~base64 with a custom lookup table~~ (waiting for custom configs feature on [rust-base64](https://github.com/alicemaz/rust-base64/issues/87))
+- [ ] ~~nanotime~~ (system time is not supported)
 
 ## compression
 - [ ] gzip and it's variants
